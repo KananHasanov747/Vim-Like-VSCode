@@ -157,6 +157,10 @@ let g:DevIconsEnableFoldersOpenClose = 1
 " auto refresh NERDTree tree structure in focusing window
 autocmd BufEnter NERD_tree_* | execute 'normal R'
 
+" let NERDTree show hidden files
+
+let NERDTreeShowHidden = 1
+
 " NERDTree syntax highlighter {{{1
 "========================================================================================
 
